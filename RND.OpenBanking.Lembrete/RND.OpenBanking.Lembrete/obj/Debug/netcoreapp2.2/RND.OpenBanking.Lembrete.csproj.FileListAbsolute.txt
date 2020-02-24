@@ -1,0 +1,16 @@
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.deps.json
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.runtimeconfig.json
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.runtimeconfig.dev.json
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.dll
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.pdb
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorAssemblyInfo.cache
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorAssemblyInfo.cs
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.AssemblyInfoInputs.cache
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.AssemblyInfo.cs
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorTargetAssemblyInfo.cache
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.dll
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.pdb
+C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.csprojAssemblyReference.cache

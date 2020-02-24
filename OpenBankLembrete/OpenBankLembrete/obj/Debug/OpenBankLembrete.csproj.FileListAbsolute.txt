@@ -1,0 +1,12 @@
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csprojAssemblyReference.cache
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.frmOpenBankingLembrete.resources
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.Properties.Resources.resources
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csproj.GenerateResource.cache
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\bin\Debug\OpenBankLembrete.exe.config
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\bin\Debug\OpenBankLembrete.exe
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\bin\Debug\OpenBankLembrete.pdb
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\bin\Debug\Newtonsoft.Json.xml
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csproj.CopyComplete
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.exe
+C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.pdb
