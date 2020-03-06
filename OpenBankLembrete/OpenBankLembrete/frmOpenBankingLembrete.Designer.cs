@@ -35,7 +35,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.NomeUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Lembrete = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Visto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,9 +47,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(18, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 20);
+            this.label1.Size = new System.Drawing.Size(289, 29);
             this.label1.TabIndex = 36;
             this.label1.Text = "Lembrete OpenBanking";
             // 
@@ -55,9 +59,10 @@
             this.btnOk.BackColor = System.Drawing.Color.Black;
             this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.ForeColor = System.Drawing.Color.White;
-            this.btnOk.Location = new System.Drawing.Point(12, 405);
+            this.btnOk.Location = new System.Drawing.Point(18, 623);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(149, 50);
+            this.btnOk.Size = new System.Drawing.Size(224, 77);
             this.btnOk.TabIndex = 37;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = false;
@@ -67,10 +72,15 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Lembrete});
-            this.dataGridView1.Location = new System.Drawing.Point(16, 32);
+            this.NomeUsuario,
+            this.Lembrete,
+            this.Status,
+            this.Visto});
+            this.dataGridView1.Location = new System.Drawing.Point(24, 49);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(648, 367);
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.Size = new System.Drawing.Size(972, 565);
             this.dataGridView1.TabIndex = 38;
             // 
             // button1
@@ -78,9 +88,10 @@
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(515, 405);
+            this.button1.Location = new System.Drawing.Point(772, 623);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 50);
+            this.button1.Size = new System.Drawing.Size(224, 77);
             this.button1.TabIndex = 39;
             this.button1.Text = "Lembrar Novamente";
             this.button1.UseVisualStyleBackColor = false;
@@ -95,26 +106,54 @@
             // 
             this.dataGridViewImageColumn1.HeaderText = "";
             this.dataGridViewImageColumn1.Image = global::OpenBankLembrete.Properties.Resources.Ok2;
+            this.dataGridViewImageColumn1.MinimumWidth = 8;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             this.dataGridViewImageColumn1.Width = 30;
+            // 
+            // NomeUsuario
+            // 
+            this.NomeUsuario.HeaderText = "Nome do Usuário";
+            this.NomeUsuario.MinimumWidth = 8;
+            this.NomeUsuario.Name = "NomeUsuario";
+            this.NomeUsuario.ReadOnly = true;
+            this.NomeUsuario.Width = 150;
             // 
             // Lembrete
             // 
             this.Lembrete.HeaderText = "Lembrete";
+            this.Lembrete.MinimumWidth = 8;
             this.Lembrete.Name = "Lembrete";
             this.Lembrete.ReadOnly = true;
+            this.Lembrete.Width = 150;
+            // 
+            // Status
+            // 
+            this.Status.HeaderText = "Status";
+            this.Status.MinimumWidth = 8;
+            this.Status.Name = "Status";
+            this.Status.ReadOnly = true;
+            this.Status.Width = 150;
+            // 
+            // Visto
+            // 
+            this.Visto.HeaderText = "Efetuado";
+            this.Visto.MinimumWidth = 8;
+            this.Visto.Name = "Visto";
+            this.Visto.ReadOnly = true;
+            this.Visto.Width = 150;
             // 
             // frmOpenBankingLembrete
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(676, 467);
+            this.ClientSize = new System.Drawing.Size(1014, 718);
             this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmOpenBankingLembrete";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lembretes OpenBanking";
@@ -134,7 +173,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NomeUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn Lembrete;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Visto;
     }
 }
 

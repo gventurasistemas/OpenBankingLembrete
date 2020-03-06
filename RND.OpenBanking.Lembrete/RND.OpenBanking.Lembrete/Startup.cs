@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RND.OpenBanking.Lembrete.Data;
+using RND.OpenBanking.Lembrete.Interfaces;
+using RND.OpenBanking.Lembrete.Repositories;
 
 namespace RND.OpenBanking.Lembrete
 {
@@ -22,6 +24,8 @@ namespace RND.OpenBanking.Lembrete
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<Context>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<ILembrete, LembreteRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

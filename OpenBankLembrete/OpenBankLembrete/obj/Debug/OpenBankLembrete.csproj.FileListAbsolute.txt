@@ -10,3 +10,14 @@ C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\bin\Debug\New
 C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csproj.CopyComplete
 C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.exe
 C:\Users\GelsonNote\source\repos\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.pdb
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\bin\Debug\OpenBankLembrete.exe.config
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\bin\Debug\OpenBankLembrete.exe
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\bin\Debug\OpenBankLembrete.pdb
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\bin\Debug\Newtonsoft.Json.dll
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\bin\Debug\Newtonsoft.Json.xml
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.frmOpenBankingLembrete.resources
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.Properties.Resources.resources
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csproj.GenerateResource.cache
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csproj.CopyComplete
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.exe
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.pdb

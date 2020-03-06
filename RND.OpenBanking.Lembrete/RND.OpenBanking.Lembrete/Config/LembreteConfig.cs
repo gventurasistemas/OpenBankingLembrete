@@ -12,15 +12,12 @@ namespace RND.OpenBanking.Lembrete.Config
     {
         public void Configure(EntityTypeBuilder<LembreteModel> builder)
         {
-           builder
-                .Property(n => n.NomeUsuario)
-                .HasMaxLength(20)
-                .IsRequired();
+            builder.ToTable("Lembretes");
+
+            builder.HasKey(d => d.LembreteId);
+
             builder
                 .Property(d => d.DescricaoLembrete)
-                .IsRequired();
-            builder
-                .Property(h => h.HorarioLembrete)                      
                 .IsRequired();
             builder
                 .Property(c => c.CadastradoPor)

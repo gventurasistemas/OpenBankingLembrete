@@ -14,3 +14,18 @@ C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembre
 C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.dll
 C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.pdb
 C:\Users\GelsonNote\source\repos\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.csprojAssemblyReference.cache
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.deps.json
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.runtimeconfig.json
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.runtimeconfig.dev.json
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.dll
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\bin\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.pdb
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorAssemblyInfo.cache
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorAssemblyInfo.cs
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.AssemblyInfoInputs.cache
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.AssemblyInfo.cs
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorTargetAssemblyInfo.cache
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.dll
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.pdb

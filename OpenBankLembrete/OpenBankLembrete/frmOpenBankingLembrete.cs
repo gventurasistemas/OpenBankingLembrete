@@ -32,7 +32,7 @@ namespace OpenBankLembrete
 
 
         //Testando Localmente
-        private static string UriGet = "http://localhost:11587/api/OpenBankingLembrete";
+        private static string UriGet = "https://localhost:44302/api/OpenBankingLembrete";
 
         //Em produção
         // private static string URI = "http://gventurasistemas-001-site7.ctempurl.com/api/Vendas";
@@ -72,16 +72,26 @@ namespace OpenBankLembrete
                     var dadosJson = await response.Content.ReadAsStringAsync();
                     if (dadosJson != null)
                     {
-                     
+                      
                         foreach (LembreteModel item in JsonConvert.DeserializeObject<LembreteModel[]>(dadosJson).ToList<LembreteModel>())
                         {
                             if (item.Status == false)
                             {
-                                //  richTextBoxApqps.Text += "Código: " + Convert.ToString(item.Codigoapqp_str) + System.Environment.NewLine;
-                                dataGridView1.Rows.Add(item.DescricaoLembrete);
+                                dataGridView1.Rows[0].Cells[0].Value = item.Usuario.NomeUsuario;
+                                dataGridView1.Rows[0].Cells[1].Value = item.DescricaoLembrete;
+                                dataGridView1.Rows[0].Cells[2].Value = item.Status;
+                                dataGridView1.Rows[0].Cells[3].Value = item.Efetuado;
+
                                 cont = cont + 1;
                             }
                         }
+                      
+                       // dataGridView1.Rows[2].Cells[1].Value = item.DescricaoLembrete;
+
+                        //dataGridView1.Rows.Add(item.DescricaoLembrete);
+                        //dataGridView1.Rows.Add(item.Status);
+                        //dataGridView1.Rows.Add(item.Visto);
+                        //dataGridView1.Rows.Add(item.Usuario.NomeUsuario);
                     }
 
                     if (cont > 0)

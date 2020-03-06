@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GelsonNote\\source\\repos\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj": {}
+    "C:\\Projects VS\\Projetos\\OpenBankingLembrete-master\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GelsonNote\\source\\repos\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj": {
+    "C:\\Projects VS\\Projetos\\OpenBankingLembrete-master\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GelsonNote\\source\\repos\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj",
+        "projectUniqueName": "C:\\Projects VS\\Projetos\\OpenBankingLembrete-master\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj",
         "projectName": "RND.OpenBanking.Lembrete",
-        "projectPath": "C:\\Users\\GelsonNote\\source\\repos\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj",
-        "packagesPath": "C:\\Users\\GelsonNote\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GelsonNote\\source\\repos\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\obj\\",
+        "projectPath": "C:\\Projects VS\\Projetos\\OpenBankingLembrete-master\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete.csproj",
+        "packagesPath": "C:\\Users\\gelson.gomes.ext\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects VS\\Projetos\\OpenBankingLembrete-master\\RND.OpenBanking.Lembrete\\RND.OpenBanking.Lembrete\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\GelsonNote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gelson.gomes.ext\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

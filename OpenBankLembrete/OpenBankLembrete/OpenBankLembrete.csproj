@@ -58,6 +58,7 @@
     <Compile Include="LembreteModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioModel.cs" />
     <EmbeddedResource Include="frmOpenBankingLembrete.resx">
       <DependentUpon>frmOpenBankingLembrete.cs</DependentUpon>
     </EmbeddedResource>

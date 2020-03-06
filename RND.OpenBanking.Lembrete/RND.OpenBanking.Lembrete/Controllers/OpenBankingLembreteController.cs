@@ -6,26 +6,27 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RND.OpenBanking.Lembrete.Data;
+using RND.OpenBanking.Lembrete.Interfaces;
 using RND.OpenBanking.Lembrete.Models;
 
 namespace RND.OpenBanking.Lembrete.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OpenBankingLembreteController : ControllerBase
+    public class OpenBankingLembreteController : Controller
     {
-        private readonly Context _context;
+        private readonly Context _context;        
 
-        public OpenBankingLembreteController(Context context)
+        public OpenBankingLembreteController(Context context )
         {
-            _context = context;
+            _context = context;           
         }
 
         // GET: api/OpenBankingLembrete
         [HttpGet]
         public async Task<ActionResult<IEnumerable<LembreteModel>>> GetLembretes()
         {
-            return await _context.Lembretes.ToListAsync();
+            return await _context.Lembretes.Include(a => a.Usuario).ToListAsync();
         }
 
         // GET: api/OpenBankingLembrete/5
@@ -46,7 +47,7 @@ namespace RND.OpenBanking.Lembrete.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutLembreteModel(int id, LembreteModel lembreteModel)
         {
-            if (id != lembreteModel.Id)
+            if (id != lembreteModel.LembreteId)
             {
                 return BadRequest();
             }
@@ -79,7 +80,7 @@ namespace RND.OpenBanking.Lembrete.Controllers
             _context.Lembretes.Add(lembreteModel);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetLembreteModel", new { id = lembreteModel.Id }, lembreteModel);
+            return CreatedAtAction("GetLembreteModel", new { id = lembreteModel.LembreteId }, lembreteModel);
         }
 
         // DELETE: api/OpenBankingLembrete/5
@@ -100,7 +101,7 @@ namespace RND.OpenBanking.Lembrete.Controllers
 
         private bool LembreteModelExists(int id)
         {
-            return _context.Lembretes.Any(e => e.Id == id);
+            return _context.Lembretes.Any(e => e.LembreteId == id);
         }
     }
 }
