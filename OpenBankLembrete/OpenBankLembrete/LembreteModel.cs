@@ -4,21 +4,9 @@ namespace OpenBankLembrete
 {
     public class LembreteModel
     {
-        //public LembreteModel(int lembreteId, string descricaoLembrete, bool status, bool visto, bool efetuado, string cadastradoPor, DateTime dataCadastro, string alteradoPor, DateTime dataAlteracao)
-        //{
-        //    LembreteId = lembreteId;
-        //    DescricaoLembrete = descricaoLembrete;
-        //    Status = status;
-        //    Visto = visto;
-        //    Efetuado = efetuado;
-        //    CadastradoPor = cadastradoPor;
-        //    DataCadastro = dataCadastro;
-        //    AlteradoPor = alteradoPor;
-        //    DataAlteracao = dataAlteracao;          
-        //}
-
         public int LembreteId { get; set; }
         public string DescricaoLembrete { get; set; }
+        public DateTime DataEhHorarioLembrete { get; set; }
         public bool Status { get; set; }
         public bool Visto { get; set; }
         public bool Efetuado { get; set; }

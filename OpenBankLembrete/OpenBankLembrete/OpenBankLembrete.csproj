@@ -55,6 +55,7 @@
     <Compile Include="frmOpenBankingLembrete.Designer.cs">
       <DependentUpon>frmOpenBankingLembrete.cs</DependentUpon>
     </Compile>
+    <Compile Include="HorarioAgendamentoModel.cs" />
     <Compile Include="LembreteModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

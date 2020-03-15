@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace RND.OpenBanking.Lembrete.Models
 {
-   [Table("Usuarios")]
+    //[Table("Usuarios")]
     public class UsuarioModel
     {         
-        [Key]
+       // [Key]
         public int UsuarioId { get; set; }
         public string NomeUsuario { get; set; }
-      //  public virtual ICollection<LembreteModel> Lembretes { get; set; }
+        public virtual ICollection<LembreteModel> Lembretes { get; set; }
     }
 }

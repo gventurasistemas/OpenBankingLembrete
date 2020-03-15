@@ -29,3 +29,4 @@ C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.
 C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.RazorTargetAssemblyInfo.cache
 C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.dll
 C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.pdb
+C:\Projects VS\Projetos\OpenBankingLembrete-master\RND.OpenBanking.Lembrete\RND.OpenBanking.Lembrete\obj\Debug\netcoreapp2.2\RND.OpenBanking.Lembrete.csprojAssemblyReference.cache

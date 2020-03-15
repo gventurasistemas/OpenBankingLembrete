@@ -41,12 +41,43 @@ namespace OpenBankLembrete
         #region FORM
         private void frmOpenBankingLembrete_Load(object sender, EventArgs e)
         {
-            int largura = Screen.PrimaryScreen.Bounds.Width;
-            int altura = Screen.PrimaryScreen.Bounds.Height;
+            //dataGridView1.ColumnCount = 3;
+            //dataGridView1.Columns[0].Name = "Product ID";
+            //dataGridView1.Columns[1].Name = "Product Name";
+            //dataGridView1.Columns[2].Name = "Product Price";
 
-            this.DesktopLocation = new Point(largura - 320, altura - 300);
+            //string[] row = new string[] { "1", "Product 1", "1000" };
+            //dataGridView1.Rows.Add(row);
+            //row = new string[] { "2", "Product 2", "2000" };
+            //dataGridView1.Rows.Add(row);
+            //row = new string[] { "3", "Product 3", "3000" };
+            //dataGridView1.Rows.Add(row);
+            //row = new string[] { "4", "Product 4", "4000" };
+            //dataGridView1.Rows.Add(row);
 
-            this.Hide();
+            //DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+            //dataGridView1.Columns.Add(btn);
+            //btn.HeaderText = "Click Data";
+            //btn.Text = "Click Here";
+            //btn.Name = "btn";
+            //btn.UseColumnTextForButtonValue = true;
+
+
+
+
+
+
+
+
+
+
+
+            //int largura = Screen.PrimaryScreen.Bounds.Width;
+            //int altura = Screen.PrimaryScreen.Bounds.Height;
+
+            //this.DesktopLocation = new Point(largura - 320, altura - 300);
+
+            //this.Hide();
         }
         private void frmOpenBankingLembrete_Resize(object sender, EventArgs e)
         {
@@ -72,26 +103,55 @@ namespace OpenBankLembrete
                     var dadosJson = await response.Content.ReadAsStringAsync();
                     if (dadosJson != null)
                     {
-                      
+                        DateTime localDate = DateTime.Now;
+                        var localDateAux = localDate.ToString("dd/MM/yyyy HH:mm");
+                        localDate = Convert.ToDateTime(localDateAux);
+                        List<string> listaIds = new List<string>();
+                        DataTable dt = new DataTable();
+                        dataGridView1.DataSource = "";
+
+                        dt.Columns.AddRange(
+                                        new DataColumn[2] {
+                        new DataColumn("NomeUsuario", typeof(string)),
+                        new DataColumn("Lembrete",typeof(string)) 
+
+                        });
+                     
+
                         foreach (LembreteModel item in JsonConvert.DeserializeObject<LembreteModel[]>(dadosJson).ToList<LembreteModel>())
                         {
-                            if (item.Status == false)
-                            {
-                                dataGridView1.Rows[0].Cells[0].Value = item.Usuario.NomeUsuario;
-                                dataGridView1.Rows[0].Cells[1].Value = item.DescricaoLembrete;
-                                dataGridView1.Rows[0].Cells[2].Value = item.Status;
-                                dataGridView1.Rows[0].Cells[3].Value = item.Efetuado;
+                            var dataEhHorarioLembreteAux = item.DataEhHorarioLembrete.ToString("dd/MM/yyyy HH:mm");
+                            item.DataEhHorarioLembrete = Convert.ToDateTime(dataEhHorarioLembreteAux);
 
+                            //if (item.DataEhHorarioLembrete == localDate)
+                            /// {
+                            if (item.Status == false && item.Visto == false)
+                            {
+                                dt.Rows.Add(
+                                item.Usuario.NomeUsuario,
+                                item.DescricaoLembrete
+                               );
                                 cont = cont + 1;
                             }
-                        }
-                      
-                       // dataGridView1.Rows[2].Cells[1].Value = item.DescricaoLembrete;
+                           
 
-                        //dataGridView1.Rows.Add(item.DescricaoLembrete);
-                        //dataGridView1.Rows.Add(item.Status);
-                        //dataGridView1.Rows.Add(item.Visto);
-                        //dataGridView1.Rows.Add(item.Usuario.NomeUsuario);
+                            // }
+                        }
+
+                        dataGridView1.DataSource = dt;
+
+                        for (int i = 0; i <= cont; i++)
+                        {
+                            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+                            dataGridView1.Columns.Add(btn);
+                            btn.HeaderText = "Click Data";
+                            btn.Text = "Click Here";
+                            btn.Name = "btn";
+                            btn.UseColumnTextForButtonValue = true;
+                           
+                        }
+
+
                     }
 
                     if (cont > 0)

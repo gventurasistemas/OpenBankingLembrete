@@ -1,13 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RND.OpenBanking.Lembrete.Data;
+using RND.OpenBanking.Lembrete.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using RND.OpenBanking.Lembrete.Data;
-using RND.OpenBanking.Lembrete.Interfaces;
-using RND.OpenBanking.Lembrete.Models;
 
 namespace RND.OpenBanking.Lembrete.Controllers
 {

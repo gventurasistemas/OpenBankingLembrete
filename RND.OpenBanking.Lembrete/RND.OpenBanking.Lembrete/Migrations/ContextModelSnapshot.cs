@@ -30,18 +30,22 @@ namespace RND.OpenBanking.Lembrete.Migrations
                     b.Property<string>("CadastradoPor")
                         .IsRequired();
 
+                    b.Property<bool>("Concluido");
+
                     b.Property<DateTime>("DataAlteracao");
 
                     b.Property<DateTime>("DataCadastro");
 
+                    b.Property<DateTime>("DataEhHorarioLembrete");
+
                     b.Property<string>("DescricaoLembrete")
                         .IsRequired();
 
-                    b.Property<bool>("Efetuado");
+                    b.Property<DateTime>("RepetirEm");
 
                     b.Property<bool>("Status");
 
-                    b.Property<int?>("UsuarioId");
+                    b.Property<int>("UsuarioId");
 
                     b.Property<bool>("Visto");
 
@@ -50,6 +54,23 @@ namespace RND.OpenBanking.Lembrete.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Lembretes");
+
+                    b.HasData(
+                        new
+                        {
+                            LembreteId = 1,
+                            AlteradoPor = "Admin",
+                            CadastradoPor = "Admin",
+                            Concluido = false,
+                            DataAlteracao = new DateTime(2020, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataCadastro = new DateTime(2020, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DataEhHorarioLembrete = new DateTime(2020, 3, 12, 13, 31, 32, 11, DateTimeKind.Unspecified),
+                            DescricaoLembrete = "ATUALIZAR TFS",
+                            RepetirEm = new DateTime(2020, 1, 12, 0, 30, 0, 0, DateTimeKind.Unspecified),
+                            Status = false,
+                            UsuarioId = 1,
+                            Visto = false
+                        });
                 });
 
             modelBuilder.Entity("RND.OpenBanking.Lembrete.Models.UsuarioModel", b =>
@@ -58,18 +79,42 @@ namespace RND.OpenBanking.Lembrete.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("NomeUsuario");
+                    b.Property<string>("NomeUsuario")
+                        .IsRequired();
 
                     b.HasKey("UsuarioId");
 
                     b.ToTable("Usuarios");
+
+                    b.HasData(
+                        new
+                        {
+                            UsuarioId = 1,
+                            NomeUsuario = "MARCIO"
+                        },
+                        new
+                        {
+                            UsuarioId = 2,
+                            NomeUsuario = "PEDRO"
+                        },
+                        new
+                        {
+                            UsuarioId = 3,
+                            NomeUsuario = "JOÃO"
+                        },
+                        new
+                        {
+                            UsuarioId = 4,
+                            NomeUsuario = "LUCAS"
+                        });
                 });
 
             modelBuilder.Entity("RND.OpenBanking.Lembrete.Models.LembreteModel", b =>
                 {
                     b.HasOne("RND.OpenBanking.Lembrete.Models.UsuarioModel", "Usuario")
                         .WithMany("Lembretes")
-                        .HasForeignKey("UsuarioId");
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

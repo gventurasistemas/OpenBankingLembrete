@@ -21,3 +21,4 @@ C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLemb
 C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csproj.CopyComplete
 C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.exe
 C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.pdb
+C:\Projects VS\Projetos\OpenBankingLembrete-master\OpenBankLembrete\OpenBankLembrete\obj\Debug\OpenBankLembrete.csprojAssemblyReference.cache

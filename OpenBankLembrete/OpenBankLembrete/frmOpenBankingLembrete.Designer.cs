@@ -35,10 +35,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.NomeUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Lembrete = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Visto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,17 +67,17 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NomeUsuario,
-            this.Lembrete,
-            this.Status,
-            this.Visto});
-            this.dataGridView1.Location = new System.Drawing.Point(24, 49);
+            this.Column1});
+            this.dataGridView1.Location = new System.Drawing.Point(24, 48);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(972, 565);
+            this.dataGridView1.Size = new System.Drawing.Size(972, 566);
             this.dataGridView1.TabIndex = 38;
             // 
             // button1
@@ -110,37 +107,15 @@
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             this.dataGridViewImageColumn1.Width = 30;
             // 
-            // NomeUsuario
+            // Column1
             // 
-            this.NomeUsuario.HeaderText = "Nome do Usuário";
-            this.NomeUsuario.MinimumWidth = 8;
-            this.NomeUsuario.Name = "NomeUsuario";
-            this.NomeUsuario.ReadOnly = true;
-            this.NomeUsuario.Width = 150;
-            // 
-            // Lembrete
-            // 
-            this.Lembrete.HeaderText = "Lembrete";
-            this.Lembrete.MinimumWidth = 8;
-            this.Lembrete.Name = "Lembrete";
-            this.Lembrete.ReadOnly = true;
-            this.Lembrete.Width = 150;
-            // 
-            // Status
-            // 
-            this.Status.HeaderText = "Status";
-            this.Status.MinimumWidth = 8;
-            this.Status.Name = "Status";
-            this.Status.ReadOnly = true;
-            this.Status.Width = 150;
-            // 
-            // Visto
-            // 
-            this.Visto.HeaderText = "Efetuado";
-            this.Visto.MinimumWidth = 8;
-            this.Visto.Name = "Visto";
-            this.Visto.ReadOnly = true;
-            this.Visto.Width = 150;
+            this.Column1.HeaderText = "Column1";
+            this.Column1.MinimumWidth = 8;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Text = "teste";
+            this.Column1.UseColumnTextForButtonValue = true;
+            this.Column1.Width = 150;
             // 
             // frmOpenBankingLembrete
             // 
@@ -173,10 +148,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NomeUsuario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Lembrete;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Visto;
+        private System.Windows.Forms.DataGridViewButtonColumn Column1;
     }
 }
 

@@ -8,16 +8,13 @@ namespace RND.OpenBanking.Lembrete.Config
     {
         public void Configure(EntityTypeBuilder<UsuarioModel> builder)
         {
-            //builder.ToTable("Usuarios");
+            builder.ToTable("Usuarios");
 
-            //builder.HasKey(a => a.UsuarioId);
+            builder.HasKey(a => a.UsuarioId);
 
-            //builder
-            //   .Property(d => d.NomeUsuario)
-            //   .IsRequired();
-            //builder
-            //    .Property(c => c.Lembretes)
-            //    .IsRequired();
+            builder
+               .Property(d => d.NomeUsuario)
+               .IsRequired();           
         }
     }
 }
